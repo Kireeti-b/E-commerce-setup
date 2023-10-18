@@ -14,12 +14,6 @@ public class ECommerceApplication {
 
 	@GetMapping
 	public static String home(){
-		return """
-              <html>
-                  <body>
-                      <h1>Hello, Welcome to the E-commerce application</h1>
-                  </body>
-              </html>
-              """;
+		return "<h1>Hello, Welcome to the E-commerce application</h1>";
 	}
 }
